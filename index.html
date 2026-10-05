@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Thank You — Teacher's Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <p>Preparing a little surprise...</p>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="stars"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A LITTLE SURPRISE FOR</p>
+        <h1>Someone who makes<br><span>learning meaningful.</span></h1>
+        <p class="intro">Not every teacher simply teaches a subject.<br>Some leave a mark that stays with us.</p>
+        <button class="primary-btn" id="beginBtn">Open your surprise <span>→</span></button>
+      </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="reveal section">
+      <div class="section-inner">
+        <p class="eyebrow">DEAR TEACHER</p>
+        <h2>This page is for <span class="accent">you.</span></h2>
+        <p class="large-copy">
+          There are lessons that disappear after an exam, and then there are lessons
+          that become part of who we are. Thank you for giving us the second kind.
+        </p>
+        <div class="signature">— From one grateful student</div>
+      </div>
+    </section>
+
+    <section class="lessons section">
+      <div class="section-inner">
+        <p class="eyebrow">MORE THAN A SUBJECT</p>
+        <h2>What your teaching <span class="accent">gave us.</span></h2>
+        <div class="cards">
+          <article class="card">
+            <div class="number">01</div>
+            <h3>Confidence</h3>
+            <p>You made difficult things feel possible, one explanation and one attempt at a time.</p>
+          </article>
+          <article class="card">
+            <div class="number">02</div>
+            <h3>Curiosity</h3>
+            <p>You reminded us that asking “why?” is often where real learning begins.</p>
+          </article>
+          <article class="card">
+            <div class="number">03</div>
+            <h3>Persistence</h3>
+            <p>You taught us that mistakes are not the end of learning—they are part of it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="code-section section">
+      <div class="section-inner">
+        <p class="eyebrow">A DIFFERENT KIND OF CODE</p>
+        <h2>If gratitude were <span class="accent">code...</span></h2>
+        <div class="code-window">
+          <div class="window-top"><i></i><i></i><i></i><span>thank_you.js</span></div>
+          <pre><code><span class="pink">const</span> teacher = {
+  name: <span class="green">"Your Teacher"</span>,
+  impact: <span class="green">"bigger than a classroom"</span>,
+  lessons: <span class="green">"more than a textbook"</span>,
+  memories: <span class="green">"worth keeping"</span>
+};
+
+<span class="pink">function</span> <span class="blue">sayThankYou</span>() {
+  <span class="pink">return</span> <span class="green">"Thank you for believing in us."</span>;
+}
+
+console.log(<span class="blue">sayThankYou</span>());</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="message section">
+      <div class="section-inner message-box">
+        <p class="eyebrow">ONE LAST THING</p>
+        <h2>Thank you for being <span class="accent">more than a teacher.</span></h2>
+        <p class="large-copy">
+          Your time, patience, encouragement, and the way you believed in your students
+          matter more than a simple “thank you” can explain.
+        </p>
+        <button class="primary-btn" id="finalBtn">Open the final message ✦</button>
+        <div class="final-message" id="finalMessage">
+          <div class="heart">♡</div>
+          <h3>Happy Teacher’s Day!</h3>
+          <p>May you always know how many lives your teaching quietly touches.</p>
+          <p class="small">With respect and gratitude,<br><strong>Your Student</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with respect, gratitude & a little code.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
